@@ -21,6 +21,8 @@ matrixt = [[matrix1[i][j] for i in range(n)] for j in range(m)]
 #     for j in range(m):
 #         t.append(matrix1[j][i])
 #     matrixt.append(t)
-
-
-print("транспонированная матрица ", matrixt)
+print('транспонированная матрица')
+for i in range(m):
+    for j in range(n):
+        print(matrixt[i][j],  end="  ")
+    print()
