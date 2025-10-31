@@ -125,6 +125,6 @@
 
 #task5
 
-nums: list[int]=[5,3,8,6,2, 100,8,3]
+# nums: list[int]=[5,3,8,6,2, 100,8,3]
 
-print(max(nums))
+# print(max(nums))
