@@ -33,3 +33,4 @@ def  make_report(title:str, **sections: dict[str,int])->dict[str, int]:
         print(f"{key}:   {val}")
 
 make_report(title, sections=dic)
+print(dic)
