@@ -19,6 +19,7 @@ def main()->None:
         userinput: int(input("выберите вариант "))
         if userinput == 1:
             add_expense(expenses)
+
         elif userinput == 2:
             show_expenses(expenses)
         elif userinput == 3:

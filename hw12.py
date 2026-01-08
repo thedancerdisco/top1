@@ -7,4 +7,3 @@ while True:
 def get_total(products: dict[str, int])->None:
         print(f"всего товаров: {len(products)}\n общая сумма: {sum(products.values())}")
 get_total(dic)
-44
