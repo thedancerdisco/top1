@@ -9,5 +9,6 @@ def  generate_report(file:TextIO)->dict[str, int]:
         dataf[i] = str(dataf[i]["assignee"])
         print({**Counter(dataf)})
 
+
 with open('journal.json', mode='r', encoding='utf-8') as file1:
     generate_report(file1)
